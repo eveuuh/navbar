@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
-    <link href="style.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navbar</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
 <body>
     <div class="navbar">
-            <div><a href="#">Accueil</a></div>
-            <div><a href="#">A propos</a></div>
-            <div><a href="#">Actualités</a></div>
-            <div><a href="#">Contact</a></div>
-            <div><a href="#">Galerie</a></div>
-                 
+            <ul class="bar"> 
+                <li class="item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Accueil</a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">A Propos</a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                </li>
+                <li class="item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">contact</a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                </li>
+                <li class="item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Actualités</a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                </li>
+                <li class="item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Mon compte</a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                </li>
+                
+            </ul>    
     </div>
 </body>
 </html>

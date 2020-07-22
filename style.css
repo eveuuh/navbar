@@ -7,6 +7,7 @@
     align-items: center;
     flex-direction: row-reverse;
     float: left;
+    width: 100%;
 }
 
 .navbar .nav-link {
@@ -16,8 +17,9 @@
 
 }  
 
-.navbar .bar{
-    width: 50%;
+.bar {
+  width: 100%;
+  text-align: right;
 }
 
 .navbar .item{
@@ -70,13 +72,14 @@ a:hover {
 
 
 
-@media(min-width: 768px) and (max-width: 1388px)
+@media(min-width: 0px) and (max-width: 1200px)
 {
-.navbar{
-    width :100% ;
-    padding :0px ;
-    float: none;
+.navbar .item {
+    display:block;
 
+}
+.navbar {
+  height: 100%;
 }
 }
  
